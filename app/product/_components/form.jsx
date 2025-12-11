@@ -117,7 +117,8 @@ const Form = ({qty,product,priceProduct,thumbnail}) => {
         e = document.getElementsByTagName("script")[0];
         e.parentNode.insertBefore(n, e);
       };
-      ttq.load("D4IVIQRC77UBCCH9CQMG");
+      // ttq.load("D4IVIQRC77UBCCH9CQMG");
+      ttq.load("CU591VJC77UBK8D3KHP0");
       ttq.page();
 
     })(window, document, "ttq");
