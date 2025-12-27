@@ -14,7 +14,7 @@ const Home = async () => {
     let products = []
 
     try {
-        const res = await fetch("https://miracshop.vercel.app/api/admin/product", {
+        const res = await fetch("https://divanstore.vercel.app/api/admin/product", {
             cache: "no-store",          // يمنع التخزين المؤقت
           });
 
