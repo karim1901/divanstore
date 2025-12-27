@@ -24,7 +24,7 @@ import { MdOutlineAddShoppingCart } from 'react-icons/md';
 
 export async function generateMetadata({ params }) {
     try {
-        const res = await fetch(`https://miracshop.vercel.app/api/admin/product/${params.id}`);
+        const res = await fetch(`https://divanstore.vercel.app/api/admin/product/${params.id}`);
         if (!res.ok) return { title: "Product" };
         const product = await res.json();
 
@@ -58,7 +58,7 @@ const Product = async ({ params }) => {
 
     try {
 
-        const res = await fetch(`https://miracshop.vercel.app/api/admin/product/${params.id}`, {
+        const res = await fetch(`https://divanstore.vercel.app/api/admin/product/${params.id}`, {
             cache: "no-store",          // يمنع التخزين المؤقت
         });
 
@@ -90,7 +90,7 @@ const Product = async ({ params }) => {
     let products = []
 
     try {
-        const resProducts = await fetch("https://miracshop.vercel.app/api/admin/product", {
+        const resProducts = await fetch("https://divanstore.vercel.app/api/admin/product", {
             cache: "no-store",          // يمنع التخزين المؤقت
         });
 
