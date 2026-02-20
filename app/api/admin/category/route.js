@@ -101,7 +101,7 @@ export async function GET(request) {
         const data  = await Category.find()
         return NextResponse.json({status:200,data:data})
     } catch (error) {
-        console({error:error.message})
+        console.log({error:error.message})
         return NextResponse.json({error:error.message})
     }
 }

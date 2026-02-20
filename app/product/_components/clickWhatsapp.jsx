@@ -6,7 +6,7 @@ const ClickWhatsapp = ({product}) => {
 
     const phoneNumber = "212774848821"
 
-    const message = ` ${product.title} مرحبًا، أنا مهتم  https://divanstore.vercel.app/product/${product._id}`
+    const message = ` ${product.title} مرحبًا، أنا مهتم  https://divanstore.vercel.app/products/${product.title}`
 
     const handleClick = () => {
 
@@ -21,9 +21,9 @@ const ClickWhatsapp = ({product}) => {
 
 
     return (
-        <div className="fixed z-[40] bottom-[3rem] mr-[2rem] bg-green-500 w-[3.5rem] h-[3.5rem] flex items-center justify-center rounded-full border-2 border-green-500 " onClick={handleClick}>
+        <div  className="fixed z-[40] bottom-[5rem] right-[50px] bg-green-500 w-[4rem] h-[4rem] flex items-center justify-center rounded-full border-2 border-green-500 " onClick={handleClick}>
             <FaWhatsapp
-                style={{ fontSize: '40px', color: 'white', cursor: 'pointer' }}
+                style={{ fontSize: '50px', color: 'white', cursor: 'pointer' }}
             />
         </div>
 

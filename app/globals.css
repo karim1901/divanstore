@@ -9,10 +9,20 @@
   background-color:#f7e5cf;
 }
 
+.ad-text {
+  white-space: pre-line;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+}
+
 
 body{
   min-width: 350px;
-  font-family: "Sora", sans-serif;
+  /* font-family: "Sora", sans-serif; */
+  font-family: "Caveat", cursive;
+
+
 }
 
 
